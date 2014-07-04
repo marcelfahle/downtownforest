@@ -2,8 +2,8 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>downtownforest</title>
-        <meta name="description" content="">
+        <title>Downtown Forest - Hostel & Camping - Vilnius, Lithuania</title>
+        <meta name="description" content="Downtown Forest - Hostel & Camping - Vilnius, Lithuania">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -91,16 +91,50 @@
 
       <!-- Home Section -->
       <section id="home">
-        <div class="header-video">
-          <a id="video-volume" onClick="$('#bgndVideo').toggleVolume()"><i class="fa fa-volume-off"></i></a>
-          <!-- Video Background - Here you need to replace the videoURL with your youtube video URL -->
-          <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=DRhd13Z-pEE',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">youtube</a>
-          <!--/Video Background -->
+        
+
+        <img id="cycle-loader" src="img/loader.gif" alt="loader"/>
+        <div id="fullscreen-slider">
+          <!-- Slider image 1-->
+          <div class="slider-item">
+            <img src="images/gallery/exterior5.jpg" alt="">
+          </div>
+          <!-- End Slider image 1-->
+          <!-- Slider image 2-->
+          <div class="slider-item">
+            <img src="images/gallery/exterior2.jpg" alt="">
+          </div>
+          <!-- End Slider image 2-->
+          <!-- Slider image 3-->
+          <div class="slider-item">
+            <img src="images/gallery/camping2.jpg" alt="">
+          </div>
+          <!-- End Slider image 3-->
+          <!-- Slider image 4-->
+          <div class="slider-item">
+            <img src="images/gallery/reception2.jpg" alt="">
+          </div>
+          <!-- End Slider image 4-->
+        </div>
         <div class="slide-content">
           <div class="text-center">
             <div class="header">
               <img src="images/logo-big.png" alt="Downtown Forest - Hostel and Camping" />
-              <!--
+            </div>
+          </div>
+        </div>
+
+
+        <!--
+        <div class="header-video">
+          <a id="video-volume" onClick="$('#bgndVideo').toggleVolume()"><i class="fa fa-volume-off"></i></a>
+          <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=DRhd13Z-pEE',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">youtube</a>
+          <div class="slide-content">
+            <div class="text-center">
+              <div class="header">
+                <img src="images/logo-big.png" alt="Downtown Forest - Hostel and Camping" />
+
+              OUT
               <div class="heading">
                 Welcome to 
               </div>
@@ -109,11 +143,13 @@
                   Downtown Forest
                 </div>
               </div>
-              //-->
+              OUT END
+
+              </div>
             </div>
           </div>
-        </div>
-      </div> 
+        </div> 
+        //-->
       </section>
       <!-- Home Section -->
       <!-- About Section -->
@@ -143,13 +179,13 @@
           <!-- some text about yourself -->
           <div class="col-md-4 item_top">
             <p class="quoteline">
-            Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows
+              This is not a standard spiritless hotel. Here we try hard every day to make this hostel a place where we would like to stay ourselves – slightly rustic and cosy. Our mission is tattooed on our strong arms: “provide a budget yet amazing experience of Vilnius”.
             </p>
             <p>
-            You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out.
+            We call this place a forest, because green is all around our not so fancy yet cosy chateu, as we call it. Peace and nature is what we have plenty of everywhere.  And the location is very downtown indeed: being located in the artistic part of Vilnius center called Užupis we have everything within a short-walk distance: City hall (7 min), Cathedral (10min), bus&train station (15 min). Park (5min), river and ponds (1min) just nearby for these lazy days.
             </p>
             <p>
-            Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit?
+            Our staff are all passionate about traveling and about our city. We treat our guests just what we would like  to be treated  when we are traveling.
             </p>
             <p class="text-right">
             <img src="images/signature.png" alt="signature" />
@@ -159,10 +195,12 @@
           <div class="col-md-4 item_bottom">
             <!-- some information list -->
             <ul class="fa-ul">
-              <li><i class="fa fa-li fa-mobile"></i><strong>Phone</strong> : +1 343-234-4343</li>
-              <li><i class="fa fa-li fa-envelope-o"></i><strong>Email</strong> : info@paupionamai.lt </li>
-              <li><i class="fa fa-li fa-globe"></i><strong>Website</strong> : paupionamai.lt</li>
-              <li><i class="fa fa-li fa-home"></i><strong>Adresse</strong> : Paupio gatvė 31A<br>Vilnius 11341, Lithuania.</li>
+              <li><i class="fa fa-li fa-mobile"></i><strong>Phone</strong> : +370 5 264 3113</li>
+              <li><i class="fa fa-li fa-fax"></i><strong>Fax</strong> : +370 5 264 3112</li>
+              <li><i class="fa fa-li fa-envelope-o"></i><strong>Email</strong> : info@downtownforest.lt </li>
+              <li><i class="fa fa-li fa-globe"></i><strong>Website</strong> : downtownforest.lt</li>
+              <li><i class="fa fa-li fa-home"></i><strong>Adresse</strong> : Paupio st 31A<br>Vilnius LT-11341, Lithuania.</li>
+              <li><i class="fa fa-li fa-globe"></i><strong>Latitude / Longitude</strong> : 54.678180 / 25.302280</li>
             </ul>
             <!-- ./some information list -->
             <!-- some number facts -->
@@ -175,28 +213,26 @@
                 </p>
               </div>
               <div class="counters-item">
-                <i class="fa fa-flag fa-2x"></i>
-                <strong data-to="24">0</strong>
+                <i class="fa fa-suitcase fa-2x"></i>
+                <strong data-to="25">0</strong>
                 <p>
                   Rooms
                 </p>
               </div>
-            <!--
               <div class="counters-item">
-                <i class="fa fa-trophy fa-2x"></i>
-                <strong data-to="13">0</strong>
+                <i class="fa fa-tree fa-2x"></i>
+                <strong data-to="15">0</strong>
                 <p>
-                  Awards Won
+                  Tent Spots
                 </p>
               </div>
               <div class="counters-item">
-                <i class="fa fa-thumbs-up fa-2x"></i>
-                <strong data-to="520">0</strong>
+                <i class="fa fa-glass fa-2x"></i>
+                <strong data-to="4">0</strong>
                 <p>
-                  Projects Done
+                  Whiskeys on Shelf
                 </p>
               </div>
-            //-->
             </div>
             <!-- ./some number facts -->
           </div>
@@ -205,13 +241,13 @@
           <div class="col-md-4">
             <!-- Service -->
             <div class="services-box new-line item_left">
-              <h4>Free Wi-Fi</h4>
+              <h4>Tea and Coffee</h4>
               <div class="services-box-icon">
-                <i class="fa fa-rss fa-3x"></i>
+                <i class="fa fa-coffee fa-3x"></i>
               </div>
               <div class="service-box-info">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
+                  Every morning we serve tea and coffee for free. Later, we sell it. Coffee came from Colombia and was freshly roasted in Lithuania.
                 </p>
               </div>
             </div>
@@ -220,13 +256,13 @@
           <div class="col-md-4">
             <!-- Service -->
             <div class="services-box new-line item_bottom">
-              <h4>Coffee and Tea</h4>
+              <h4>Croissants</h4>
               <div class="services-box-icon">
-                <i class="fa fa-coffee fa-3x"></i>
+                <i class="fa fa-smile-o fa-3x"></i>
               </div>
               <div class="service-box-info">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
+                We serve fresh croissants every morning. Made by best-in-town patisseur, baked by our oven. 3lt/pc. Book it in the evening.
                 </p>
               </div>
             </div>
@@ -235,13 +271,13 @@
           <div class="col-md-4 clearfix">
             <!-- Service -->
             <div class="services-box new-line item_right">
-              <h4>Central Location</h4>
+              <h4>Self-service  fridge</h4>
               <div class="services-box-icon">
-                <i class="fa fa-location-arrow fa-3x"></i>
+                <i class="fa fa-beer fa-3x"></i>
               </div>
               <div class="service-box-info">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.
+                There is a fridge full of drinks working 24/7, that will not leave you thirsty. This service depends on honesty. We trust our guests.
                 </p>
               </div>
             </div>
@@ -339,7 +375,7 @@
           <div id="portfolio-items" class="portfolio-items item_fade_in">
 
             <!-- EXTERIOR //-->
-            <article class="design photo">
+            <article class="exterior photo">
               <a class="fancybox" rel="gal" href="images/gallery/exterior3.jpg">
                 <img src="images/gallery/exterior3.jpg" alt="Exterior"/>
                 <div class="overlay">
@@ -352,7 +388,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="exterior photo">
               <a class="fancybox" rel="gal" href="images/gallery/exterior1.jpg">
                 <img src="images/gallery/exterior1thumb.jpg" alt="Exterior"/>
                 <div class="overlay">
@@ -365,7 +401,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="exterior photo">
               <a class="fancybox" rel="gal" href="images/gallery/exterior2.jpg">
                 <img src="images/gallery/exterior2.jpg" alt="Exterior"/>
                 <div class="overlay">
@@ -378,7 +414,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="exterior photo">
               <a class="fancybox" rel="gal" href="images/gallery/exterior4.jpg">
                 <img src="images/gallery/exterior4.jpg" alt="Exterior"/>
                 <div class="overlay">
@@ -391,7 +427,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="exterior photo">
               <a class="fancybox" rel="gal" href="images/gallery/exterior5.jpg">
                 <img src="images/gallery/exterior5.jpg" alt="Exterior"/>
                 <div class="overlay">
@@ -404,7 +440,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="exterior photo">
               <a class="fancybox" rel="gal" href="images/gallery/exterior6.jpg">
                 <img src="images/gallery/exterior6.jpg" alt="Exterior"/>
                 <div class="overlay">
@@ -423,7 +459,7 @@
 
 
             <!-- RECEPTION //-->
-            <article class="design photo">
+            <article class="reception photo">
               <a class="fancybox" rel="gal" href="images/gallery/reception2.jpg">
                 <img src="images/gallery/reception2.jpg" alt="Reception"/>
                 <div class="overlay">
@@ -437,7 +473,7 @@
               </a>
             </article>
 
-            <article class="design photo">
+            <article class="reception photo">
               <a class="fancybox" rel="gal" href="images/gallery/reception3.jpg">
                 <img src="images/gallery/reception3.jpg" alt="Reception"/>
                 <div class="overlay">
@@ -455,7 +491,7 @@
 
 
             <!-- INTERIOR //-->
-            <article class="design photo">
+            <article class="interior photo">
               <a class="fancybox" rel="gal" href="images/gallery/interior1.jpg">
                 <img src="images/gallery/interior1.jpg" alt="Interior"/>
                 <div class="overlay">
@@ -468,7 +504,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="interior photo">
               <a class="fancybox" rel="gal" href="images/gallery/interior2.jpg">
                 <img src="images/gallery/interior2.jpg" alt="Interior"/>
                 <div class="overlay">
@@ -481,7 +517,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="interior photo">
               <a class="fancybox" rel="gal" href="images/gallery/interior3.jpg">
                 <img src="images/gallery/interior3.jpg" alt="Interior"/>
                 <div class="overlay">
@@ -494,7 +530,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="interior photo">
               <a class="fancybox" rel="gal" href="images/gallery/interior4.jpg">
                 <img src="images/gallery/interior4.jpg" alt="Interior"/>
                 <div class="overlay">
@@ -507,7 +543,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="interior photo">
               <a class="fancybox" rel="gal" href="images/gallery/interior5.jpg">
                 <img src="images/gallery/interior5.jpg" alt="Interior"/>
                 <div class="overlay">
@@ -520,7 +556,7 @@
                 <!-- End .overlay -->
               </a>
             </article>
-            <article class="design photo">
+            <article class="interior photo">
               <a class="fancybox" rel="gal" href="images/gallery/interior6.jpg">
                 <img src="images/gallery/interior6thumb.jpg" alt="Interior"/>
                 <div class="overlay">
@@ -536,138 +572,169 @@
 
 
 
+            <!-- ROOMS //-->
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms1.jpg">
+                <img src="images/gallery/rooms1.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms2.jpg">
+                <img src="images/gallery/rooms2.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms3.jpg">
+                <img src="images/gallery/rooms3.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms4.jpg">
+                <img src="images/gallery/rooms4.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms5.jpg">
+                <img src="images/gallery/rooms5thumb.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms6.jpg">
+                <img src="images/gallery/rooms6thumb.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms7.jpg">
+                <img src="images/gallery/rooms7.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms8.jpg">
+                <img src="images/gallery/rooms8.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms9.jpg">
+                <img src="images/gallery/rooms9.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
+            <article class="rooms photo">
+              <a class="fancybox" rel="gal" href="images/gallery/rooms10.jpg">
+                <img src="images/gallery/rooms10.jpg" alt="Our Rooms"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Our Rooms</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
+            </article>
 
 
-            <article class="video design mobile">
-            <a href="#!projects/project-single.html">
-            <img src="images/portfolio/thumb3.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-camera"></i>
-                <h3>Project with single image</h3>
-                <span>Design / Video</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
+            
+            <!-- CAMPING //-->
+            <article class="camping photo">
+              <a class="fancybox" rel="gal" href="images/gallery/camping1.jpg">
+                <img src="images/gallery/camping1.jpg" alt="Camping Area"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Camping Area</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
             </article>
-            <article class="web photo">
-            <a href="#!projects/project-slider.html">
-            <img src="images/portfolio/thumb4.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-picture-o"></i>
-                <h3>Project with gallery</h3>
-                <span>Web / Photo</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
+            <article class="camping photo">
+              <a class="fancybox" rel="gal" href="images/gallery/camping2.jpg">
+                <img src="images/gallery/camping2.jpg" alt="Camping Area"/>
+                <div class="overlay">
+                  <div class="item-info">
+                    <i class="fa fa-camera"></i>
+                    <h3>Camping Area</h3>
+                    <span></span>
+                  </div>
+                </div>
+                <!-- End .overlay -->
+              </a>
             </article>
-            <article class="mobile video">
-            <a href="#!projects/project-video.html">
-            <img src="images/portfolio/thumb5.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-film"></i>
-                <h3>Project with video</h3>
-                <span>Mobile</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="photo video">
-            <a href="#!projects/project-slider.html">
-            <img src="images/portfolio/thumb6.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-picture-o"></i>
-                <h3>Project with gallery</h3>
-                <span>Photo / Video</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="web mobile video">
-            <a href="#!projects/project-single.html">
-            <img src="images/portfolio/thumb7.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-camera"></i>
-                <h3>Project with single image</h3>
-                <span>Web / Mobile</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="video photo web design">
-            <a href="#!projects/project-single.html">
-            <img src="images/portfolio/thumb8.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-camera"></i>
-                <h3>Project with single image</h3>
-                <span>Video / Photo / Web</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="design photo">
-            <a href="#!projects/project-single.html">
-            <img src="images/portfolio/thumb9.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-camera"></i>
-                <h3>Project with single image</h3>
-                <span>Design / Photo</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="web photo">
-            <a href="#!projects/project-slider.html">
-            <img src="images/portfolio/thumb10.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-picture-o"></i>
-                <h3>Project with gallery</h3>
-                <span>Web / Photo</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="video design mobile">
-            <a href="#!projects/project-single.html">
-            <img src="images/portfolio/thumb11.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-camera"></i>
-                <h3>Project with single image</h3>
-                <span>Design / Video</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
-            <article class="photo web video">
-            <a href="#!projects/project-video.html">
-            <img src="images/portfolio/thumb12.jpg" alt="image"/>
-            <div class="overlay">
-              <div class="item-info">
-                <i class="fa fa-film"></i>
-                <h3>Project with video</h3>
-                <span>Photo / Web</span>
-              </div>
-            </div>
-            <!-- End .overlay -->
-            </a>
-            </article>
+
+
           </div>
           <!-- End #portfolio-items.portfolio-items -->
          </div> 
@@ -683,7 +750,7 @@
 
 
       <!-- Clients Section -->
-              <section id="clients" class="clients bg2">
+              <section id="clients" class="clients bg3">
                 <div class="container">
                  <div class="row">
           <!-- Section title -->
@@ -742,7 +809,7 @@
 
 
       <!-- Contact Section -->
-      <section id="contact" class="section-content bg3">
+      <section id="contact" class="section-content bg2">
       <div class="container">
         <div class="row">
           <!-- Section title -->
@@ -771,15 +838,15 @@
               <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
               <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
               <a href="#"><i class="fa fa-google-plus-square fa-3x"></i></a>
-              <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+              <!--<a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
               <a href="#"><i class="fa fa-pinterest-square fa-3x"></i></a>
-              <a href="#"><i class="fa fa-vimeo-square fa-3x"></i></a>
+              <a href="#"><i class="fa fa-vimeo-square fa-3x"></i></a>//-->
             </div>
             <!-- End Social Icon -->
           </div>
         </div>
         <div class="row item_fade_in">
-          <h4 class="text-center">Drop me a Line</h4>
+          <h4 class="text-center">Drop us a Line</h4>
           <div class="col-md-6 col-md-offset-3">
             <div class="form-respond text-center">
             </div>
@@ -821,12 +888,9 @@
       <a href="#" id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
 
 
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
       <!-- build:js scripts/vendor.js -->
       <!-- bower:js -->
-      <script src="../bower_components/jquery/dist/jquery.js"></script>
-      <!-- endbower -->
-      <!-- endbuild -->
-      <!-- Js Library -->
       <script type="text/javascript" src="scripts/modernizr.js"></script>
       <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
       <script type="text/javascript" src="scripts/jquery.sticky.js"></script>
@@ -849,9 +913,11 @@
       <script type="text/javascript" src="scripts/jquery.nicescroll.min.js"></script>
       <script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
       <script type="text/javascript" src="scripts/jquery.fancybox.pack.js"></script>
-      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
       <script type="text/javascript" src="scripts/gmap-settings.js"></script>
       <script type="text/javascript" src="scripts/script.js"></script>
+      <!-- endbower -->
+      <!-- endbuild -->
+      <!-- Js Library -->
       <!-- Js Library -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -861,7 +927,7 @@
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','UA-45944691-2');ga('send','pageview');
         </script>
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
