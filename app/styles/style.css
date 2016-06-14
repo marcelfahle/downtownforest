@@ -932,7 +932,7 @@ transform: rotate(180deg);
 }
 .swiper-slide {
     float: left;
-    color:#fff;
+    color: #5a803a;
 }
 .swiper-slide .author{
  margin:0px 0px 6px 0px;
@@ -1634,4 +1634,15 @@ padding-bottom:120px;
 }
 .btn-full {
     width: 100%;
+}
+.btn-green {
+  background-color: #5a803a;
+  color: #fff;
+}
+.booking_com {
+  padding-bottom: 40px;
+}
+
+.camping-block ul {
+  list-style: none;
 }
